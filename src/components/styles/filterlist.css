@@ -1,0 +1,33 @@
+.list__ul{
+    background-color: #232e06f7;
+    max-height: 250px;
+    overflow-y: scroll;
+    overscroll-behavior-y: auto;
+    position: absolute;
+    text-align: center;
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.list__ul li:hover {
+    background-color: rgb(109, 165, 26);
+    color: white;
+}
+
+.list__ul::-webkit-scrollbar {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+.list__ul::-webkit-scrollbar:hover{
+    background: #7c9376;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.list__ul::-webkit-scrollbar:active{
+    background-color: #ffffff;
+}
+
